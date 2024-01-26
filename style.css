@@ -130,3 +130,47 @@ button{
         height: 40px;
     }
 }
+
+@media (max-width:500px){
+   
+    body{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        border: none;
+        border-radius: 10px;
+        margin-right: 100px;
+    }
+    .left{
+        margin-top: 50px;
+        width: 100vw;
+        height: 100px;
+        
+    }
+    .left .line{
+        display: none;
+    }
+    .left .text{
+        
+        width: 100vw;
+        font-size: 15px;
+        text-align: center;
+    }
+    button{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
